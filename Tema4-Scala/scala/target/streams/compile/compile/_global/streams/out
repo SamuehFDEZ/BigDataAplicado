@@ -1,0 +1,17 @@
+[warn] -- Warning: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Ejercicios.scala:26:2 
+[warn] 26 |  println(esPrimo(2))  // true
+[warn]    |  ^
+[warn]    |  Line is indented too far to the left, or a `}` is missing
+[warn] -- Warning: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Method_Notations.scala:18:16 
+[warn] 18 |  println(maria meGusta "Los vengadores") //True
+[warn]    |                ^^^^^^^
+[warn]    |Alphanumeric method meGusta is not declared infix; it should not be used as infix operator.
+[warn]    |Instead, use method syntax .meGusta(...) or backticked identifier `meGusta`.
+[warn]    |The latter can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Method_Notations.scala:24:16 
+[warn] 24 |  println(maria salirCon pedro)
+[warn]    |                ^^^^^^^^
+[warn]    |Alphanumeric method salirCon is not declared infix; it should not be used as infix operator.
+[warn]    |Instead, use method syntax .salirCon(...) or backticked identifier `salirCon`.
+[warn]    |The latter can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] three warnings found

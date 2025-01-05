@@ -1,0 +1,47 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\target\scala-3.6.2\classes.bak
+[debug] About to delete class files:
+[debug] 	Obrero.class
+[debug] 	levantaPeso.class
+[debug] 	Ejercicio4$.class
+[debug] 	robot.class
+[debug] 	Asistente.class
+[debug] 	asistir.class
+[debug] 	Ejercicio4.class
+[debug] 	Obrero.tasty
+[debug] 	levantaPeso.tasty
+[debug] 	Ejercicio4$.tasty
+[debug] 	robot.tasty
+[debug] 	Asistente.tasty
+[debug] 	asistir.tasty
+[debug] 	Ejercicio4.tasty
+[debug] We backup class files:
+[debug] 	Obrero.class
+[debug] 	levantaPeso.class
+[debug] 	Ejercicio4$.class
+[debug] 	robot.class
+[debug] 	Asistente.class
+[debug] 	asistir.class
+[debug] 	Ejercicio4.class
+[debug] 	Obrero.tasty
+[debug] 	levantaPeso.tasty
+[debug] 	Ejercicio4$.tasty
+[debug] 	robot.tasty
+[debug] 	Asistente.tasty
+[debug] 	asistir.tasty
+[debug] 	Ejercicio4.tasty
+[debug] Registering generated classes:
+[debug] 	Obrero.class
+[debug] 	levantaPeso.class
+[debug] 	Ejercicio4$.class
+[debug] 	robot.class
+[debug] 	Asistente.class
+[debug] 	asistir.class
+[debug] 	Ejercicio4.class
+[debug] 	Obrero.tasty
+[debug] 	levantaPeso.tasty
+[debug] 	Ejercicio4$.tasty
+[debug] 	robot.tasty
+[debug] 	Asistente.tasty
+[debug] 	asistir.tasty
+[debug] 	Ejercicio4.tasty
+[debug] Removing the temporary directory used for backing up class files: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\target\scala-3.6.2\classes.bak

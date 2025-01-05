@@ -1,0 +1,137 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\ESP\AppData\Local\Temp\idea2.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\ESP\AppData\Local\Temp\idea2.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.5 (Oracle Corporation Java 21.0.5)
+[debug] Load.defaultLoad until apply took 130.2521ms
+[debug]                 Load.loadUnit: plugins took 94.005ms
+[debug]                 Load.loadUnit: defsScala took 0.2601ms
+[debug] [Loading] Scanning directory C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project\project
+[debug]                   Load.loadUnit: mkEval took 4.4359ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 14.5883 ms
+[info] loading settings for project scala-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(scala-build-build) took 41.2923ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id scala-build-build, base: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project\project, plugins: List(<none>))) took 76.7607ms
+[debug] [Loading] Done in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project\project, returning: (scala-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 329.4249ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 7.4618ms
+[debug]               Load.loadUnit(file:/C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/project/project/, ...) took 436.4454ms
+[debug]             Load.apply: load took 556.5368ms
+[debug]             Load.apply: resolveProjects took 6.6131ms
+[debug]             Load.apply: finalTransforms took 84.1477ms
+[debug]             Load.apply: config.delegates took 10.9889ms
+[debug]             Load.apply: Def.make(settings)... took 699.6337ms
+[debug]             Load.apply: structureIndex took 149.912ms
+[debug]             Load.apply: mkStreams took 1.837ms
+[info] loading project definition from C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 2810.0892ms
+[debug]           Load.loadUnit: defsScala took 0.009ms
+[debug] [Loading] Scanning directory C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project
+[debug]             Load.loadUnit: mkEval took 0.2315ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.0292 ms
+[info] loading settings for project scala-build from metals.sbt,idea2.sbt ...
+[debug]               Load.resolveProject(scala-build) took 23.7562ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scala-build, base: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project, plugins: List(<none>))) took 26.4183ms
+[debug] [Loading] Done in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project, returning: (scala-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 84.9612ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.7898ms
+[debug]         Load.loadUnit(file:/C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/project/, ...) took 2903.269ms
+[debug]       Load.apply: load took 2907.0077ms
+[debug]       Load.apply: resolveProjects took 0.2087ms
+[debug]       Load.apply: finalTransforms took 31.0368ms
+[debug]       Load.apply: config.delegates took 0.5347ms
+[debug]       Load.apply: Def.make(settings)... took 134.325ms
+[debug]       Load.apply: structureIndex took 48.8865ms
+[debug]       Load.apply: mkStreams took 0.0024ms
+[info] loading project definition from C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop\scala-build.json
+[success] Total time: 4 s, completed 17 dic 2024, 19:05:47
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 7534.4062ms
+[debug]     Load.loadUnit: defsScala took 0.0035ms
+[debug] [Loading] Scanning directory C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala
+[debug]       Load.loadUnit: mkEval took 0.3441ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.1404 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 49.2206ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala, plugins: List(<none>))) took 52.619ms
+[debug] [Loading] Done in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 112.7905ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.0306ms
+[debug]   Load.loadUnit(file:/C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/, ...) took 7658.2959ms
+[debug] Load.apply: load took 7677.4812ms
+[debug] Load.apply: resolveProjects took 0.1963ms
+[debug] Load.apply: finalTransforms took 34.0226ms
+[debug] Load.apply: config.delegates took 0.4222ms
+[debug] Load.apply: Def.make(settings)... took 177.2539ms
+[debug] Load.apply: structureIndex took 34.9795ms
+[debug] Load.apply: mkStreams took 0.0027ms
+[info] set current project to scala (in build file:/C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(idea-shell, None, None)

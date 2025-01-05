@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: customers_orders
+    description: relaciona customers y ordenes
+    columns: 
+      - name: customer_id
+      - name: customer_full_name
+      - name: first_order
+      - name: most_recent_order
+      - name: number_of_orders 
+
+  - name: customers_payments
+    description: relaciona customers y payments
+    columns: 
+      - name: customer_id
+      - name: number_of_orders
+      - name: total_amount
+
+  - name: customers_orders_payments
+    description: relaciona customers, payments y orders
+    columns: 
+      - name: customer_id
+      - name: number_of_orders
+      - name: total_amount

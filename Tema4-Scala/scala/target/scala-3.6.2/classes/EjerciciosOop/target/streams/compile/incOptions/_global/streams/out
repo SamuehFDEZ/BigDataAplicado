@@ -1,0 +1,22 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mascota$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Libro$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Producto$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Libro.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Producto.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CuentaBancaria$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mascota$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mascota.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CuentaBancaria.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Companion$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Producto$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CuentaBancaria$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Companion$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Companion.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes.bak[0m

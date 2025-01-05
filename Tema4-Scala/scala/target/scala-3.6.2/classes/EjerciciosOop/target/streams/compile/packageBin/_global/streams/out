@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\ejerciciosoop_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\Companion$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\Companion$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\Companion$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\Companion$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\Companion.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\Companion.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\CuentaBancaria$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\CuentaBancaria$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\CuentaBancaria$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\CuentaBancaria$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\CuentaBancaria.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\CuentaBancaria.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\Libro$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\Libro$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\Libro.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\Libro.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\Mascota$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\Mascota$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\Mascota$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\Mascota$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\Mascota.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\Mascota.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\Producto$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\Producto$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\Producto$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\Producto$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EjerciciosOop\Producto.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\target\scala-2.12\classes\EjerciciosOop\Producto.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

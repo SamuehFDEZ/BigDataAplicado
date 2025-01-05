@@ -1,0 +1,168 @@
+[debug] > Exec(all {file:/C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/}root/products {file:/C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 26 Scala sources to C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\target\scala-3.6.2\classes ...
+[error] -- [E103] Syntax Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:20:3 
+[error] 20 |   gato.comerGato
+[error]    |   ^^^^
+[error]    |   Illegal start of toplevel definition
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E103] Syntax Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:34:4 
+[error] 34 |    println(perro.TipoCriatura)
+[error]    |    ^^^^^^^
+[error]    |    Illegal start of toplevel definition
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E103] Syntax Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:47:4 
+[error] 47 |    esAnimal.comer
+[error]    |    ^^^^^^^^
+[error]    |    Illegal start of toplevel definition
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E103] Syntax Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:61:3 
+[error] 61 |   perro2.comer
+[error]    |   ^^^^^^
+[error]    |   Illegal start of toplevel definition
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E040] Syntax Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:107:0 
+[error] 107 |}
+[error]     |^
+[error]     |eof expected, but '}' found
+[error] -- [E161] Naming Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:28:9 
+[error] 28 |   class Perro (TipoPerro: String) extends Animal {
+[error]    |   ^
+[error]    |Perro is already defined as class Perro in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala
+[error] 29 |        override val TipoCriatura = TipoPerro
+[error] 30 |    }
+[error] -- [E161] Naming Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:38:10 
+[error] 38 |    class Animal {
+[error]    |    ^
+[error]    |Animal is already defined as class Animal in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala
+[error] 39 |        val TipoCriatura = "Salvaje"
+[error] 40 |        def comer = println("comer comer")
+[error] 41 |   }
+[error] -- [E161] Naming Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:43:10 
+[error] 43 |    class Perro (override val TipoCriatura: String) extends Animal {
+[error]    |    ^
+[error]    |Perro is already defined as class Perro in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala
+[error] 44 |      override def comer = println("comer perro")
+[error] 45 |    }
+[error] -- [E161] Naming Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:50:9 
+[error] 50 |   class Animal {
+[error]    |   ^
+[error]    |Animal is already defined as class Animal in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala
+[error] 51 |        val TipoCriatura = "Salvaje"
+[error] 52 |        def comer = println("comer comer")
+[error] 53 |   }
+[error] -- [E161] Naming Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:67:8 
+[error] 67 |  class Animal {
+[error]    |  ^
+[error]    |Animal is already defined as class Animal in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala
+[error] 68 |    val TipoCriatura = "Salvaje"
+[error] 69 |    final def comer = println("comer comer")
+[error] 70 |  }
+[error] -- [E161] Naming Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:72:8 
+[error] 72 |  class Perro (override val TipoCriatura: String) extends Animal {
+[error]    |  ^
+[error]    |Perro is already defined as class Perro in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala
+[error] 73 |    override def comer = {
+[error] 74 |        super.comer
+[error] 75 |        println("comer Perro")
+[error] 76 |    }
+[error] 77 |  }
+[error] -- [E161] Naming Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:82:15 
+[error] 82 |   final class Animal {
+[error]    |   ^
+[error]    |Animal is already defined as class Animal in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala
+[error] 83 |    val TipoCriatura = "Salvaje"
+[error] 84 |     def comer = println("comer comer")
+[error] 85 |  }
+[error] -- [E161] Naming Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:87:8 
+[error] 87 |  class Perro (override val TipoCriatura: String) extends Animal {
+[error]    |  ^
+[error]    |Perro is already defined as class Perro in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala
+[error] 88 |    override def comer = {
+[error] 89 |        super.comer
+[error] 90 |        println("comer Perro")
+[error] 91 |    }
+[error] 92 |  }
+[error] -- [E161] Naming Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:96:15 
+[error] 96 |  sealed class Animal {
+[error]    |  ^
+[error]    |Animal is already defined as class Animal in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala
+[error] 97 |    val TipoCriatura = "Salvaje"
+[error] 98 |    def comer = println ("comer comer")
+[error] 99 |  }
+[error] -- [E161] Naming Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:101:8 
+[error] 101 |  class Perro (override val TipoCriatura: String) extends Animal {
+[error]     |  ^
+[error]     |Perro is already defined as class Perro in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala
+[error] 102 |    override def comer = {
+[error] 103 |        super.comer
+[error] 104 |        println("comer Perro")
+[error] 105 |    }
+[error] 106 |  }
+[error] -- [E161] Naming Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Oop.scala:3:6 
+[error]  3 |class Persona (nombre: String, val edad: Int) {
+[error]    |^
+[error]    |Persona is already defined as class Persona in C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala
+[error]  4 |  //cuerpo
+[error]  5 |
+[error]  6 |  val x = 2 //son campos
+[error]  7 |
+[error]  8 |  println (1 + 3) //expresiones
+[error]  9 |
+[error] 10 |  //método --//overloading
+[error] 11 |
+[error] 12 |  def saluda(nombre: String): Unit = println(s"${this.nombre} dice: Hola, $nombre")
+[error] 13 |  def saluda(): Unit = println (s"Hola, Yo soy $nombre")
+[error] 14 |  //def saluda(): Int = 43 --> En este caso el compilado sí se confude
+[error] 15 |
+[error] -- Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:33:27 
+[error] 33 |    val perro = new Perro ("Indiferente")
+[error]    |                           ^^^^^^^^^^^^^
+[error]    |      too many arguments for constructor Perro in class Perro: (): Perro
+[error] -- Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\8_Scala_Herencia.scala:46:38 
+[error] 46 |    val esAnimal: Animal = new Perro ("Ni idea")
+[error]    |                                      ^^^^^^^^^
+[error]    |      too many arguments for constructor Perro in class Perro: (): Perro
+[warn] -- Warning: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Ejercicios.scala:26:2 
+[warn] 26 |  println(esPrimo(2))  // true
+[warn]    |  ^
+[warn]    |  Line is indented too far to the left, or a `}` is missing
+[warn] -- Warning: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Method_Notations.scala:18:16 
+[warn] 18 |  println(maria meGusta "Los vengadores") //True
+[warn]    |                ^^^^^^^
+[warn]    |Alphanumeric method meGusta is not declared infix; it should not be used as infix operator.
+[warn]    |Instead, use method syntax .meGusta(...) or backticked identifier `meGusta`.
+[warn]    |The latter can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Method_Notations.scala:24:16 
+[warn] 24 |  println(maria salirCon pedro)
+[warn]    |                ^^^^^^^^
+[warn]    |Alphanumeric method salirCon is not declared infix; it should not be used as infix operator.
+[warn]    |Instead, use method syntax .salirCon(...) or backticked identifier `salirCon`.
+[warn]    |The latter can be rewritten automatically under -rewrite -source 3.4-migration.
+[error] -- [E173] Reference Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Oop.scala:23:18 
+[error] 23 |  println(persona.edad)
+[error]    |          ^^^^^^^^^^^^
+[error]    |value edad cannot be accessed as a member of (Oop.persona : Persona) from object Oop.
+[error]    |  private value edad can only be accessed from class Persona.
+[error] -- [E008] Not Found Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Oop.scala:24:18 
+[error] 24 |  println(persona.x)
+[error]    |          ^^^^^^^^^
+[error]    |          value x is not a member of Persona
+[error] -- [E008] Not Found Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Oop.scala:25:10 
+[error] 25 |  persona.saluda("Daniel")
+[error]    |  ^^^^^^^^^^^^^^
+[error]    |  value saluda is not a member of Persona
+[error] -- [E008] Not Found Error: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Oop.scala:26:10 
+[error] 26 |  persona.saluda()
+[error]    |  ^^^^^^^^^^^^^^
+[error]    |  value saluda is not a member of Persona
+[warn] three warnings found
+[error] 22 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 9 s, completed 16 dic 2024, 20:35:25
+[debug] > Exec(idea-shell, None, None)

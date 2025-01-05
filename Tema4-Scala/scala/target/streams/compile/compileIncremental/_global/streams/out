@@ -1,0 +1,40 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 85 products, 30 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/Ejercicios/Ejercicio2.scala, ${BASE}/src/main/scala/HolaMundo.scala, ${BASE}/src/main/scala/StringOps.scala, ${BASE}/src/main/scala/EjerciciosOop/Ejercicio_7.scala, ${BASE}/src/main/scala/EjerciciosOop/Herencia.scala, ${BASE}/src/main/scala/Ejercicios/Ejercicio1.scala, ${BASE}/src/main/scala/EsPrimo.scala, ${BASE}/src/main/scala/Ejercicios/Ejercicio4.scala, ${BASE}/src/main/scala/EjerciciosOop/Companion.scala, ${BASE}/src/main/scala/Oop.scala, ${BASE}/src/main/scala/Recursividad.scala, ${BASE}/src/main/scala/AbstractTrait/Ejercicio1.scala, ${BASE}/src/main/scala/Ejercicios/EscritorNovela.scala, ${BASE}/src/main/scala/AbstractTrait/Ejercicio4.scala, ${BASE}/src/main/scala/Ejercicios/Ejercicio5.scala, ${BASE}/src/main/scala/AbstractTrait/Ejercicio2.scala, ${BASE}/src/main/scala/Ejercicios/Ejercicio3.scala, ${BASE}/src/main/scala/EjercicioCalculaDescuento.scala, ${BASE}/src/main/scala/CallByValueName.scala, ${BASE}/src/main/scala/Funciones.scala, ${BASE}/src/main/scala/EjerciciosOop/CuentaBancaria.scala, ${BASE}/src/main/scala/EjerciciosOop/Mascota.scala, ${BASE}/src/main/scala/AbstractTrait/AbstractTrait.scala, ${BASE}/src/main/scala/AbstractTrait/Ejercicio3.scala, ${BASE}/src/main/scala/Ejercicios.scala, ${BASE}/src/main/scala/Expresiones.scala, ${BASE}/src/main/scala/ValuesVariablesTypes.scala, ${BASE}/src/main/scala/Recursividad_cadenas.scala, ${BASE}/src/main/scala/EjerciciosOop/Producto.scala, ${BASE}/src/main/scala/Method_Notations.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/AbstractTrait/Ejercicio4.scala), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/AbstractTrait/Ejercicio4.scala)
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(AbstractTrait.robot, AbstractTrait.levantaPeso, AbstractTrait.Asistente, AbstractTrait.asistir, AbstractTrait.Ejercicio4, AbstractTrait.Obrero)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(AbstractTrait.robot, AbstractTrait.levantaPeso, AbstractTrait.Asistente, AbstractTrait.asistir, AbstractTrait.Ejercicio4, AbstractTrait.Obrero)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/AbstractTrait/Ejercicio4.scala)
+[debug] Initial set of included nodes: AbstractTrait.robot, AbstractTrait.levantaPeso, AbstractTrait.Asistente, AbstractTrait.asistir, AbstractTrait.Ejercicio4, AbstractTrait.Obrero
+[debug] Including AbstractTrait.Asistente by AbstractTrait.robot
+[debug] Including AbstractTrait.Obrero by AbstractTrait.robot
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\target\scala-3.6.2\classes ...
+[debug] Returning already retrieved and compiled bridge: C:\Users\ESP\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.6.2\scala3-sbt-bridge-3.6.2.jar.
+[debug] [zinc] Running cached compiler 61b7669f for Scala Compiler version 3.6.2
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-classpath
+[debug] 	C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\target\scala-3.6.2\classes;C:\Users\ESP\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.6.2\scala3-library_3-3.6.2.jar;C:\Users\ESP\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.15\scala-library-2.13.15.jar
+[debug] Scala compilation took 6.8441423 s
+[info] done compiling
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] Initial set of included nodes: AbstractTrait.robot, AbstractTrait.levantaPeso, AbstractTrait.Asistente, AbstractTrait.asistir, AbstractTrait.Ejercicio4, AbstractTrait.Obrero
+[debug] Invalidated macros due to upstream dependencies change: Set()
+[debug] No classes were invalidated.

@@ -1,0 +1,303 @@
+2024.12.16 19:15:47 INFO  Started: Metals version 1.4.1 in folders 'C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala' for client Visual Studio Code 1.95.3.
+2024.12.16 19:15:48 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.16 19:15:48 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:15:49 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+dic 16, 2024 7:16:06 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2024.12.16 19:16:06 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:06 INFO  running 'C:\Program Files\Java\jdk-23\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ESP\AppData\Local\Temp\metals12873647541175263565\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.16 19:16:06 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+dic 16, 2024 7:16:06 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2024.12.16 19:16:12 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:12 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:12 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:13 INFO  [info] welcome to sbt 1.10.5 (Oracle Corporation Java 23.0.1)
+2024.12.16 19:16:13 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:19 INFO  [info] loading settings for project scala-build-build from metals.sbt ...
+2024.12.16 19:16:20 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:22 INFO  [info] loading project definition from C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project\project
+2024.12.16 19:16:31 INFO  [info] loading settings for project scala-build from metals.sbt ...
+2024.12.16 19:16:31 INFO  [info] loading project definition from C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project
+2024.12.16 19:16:39 INFO  [success] Generated .bloop\scala-build.json
+2024.12.16 19:16:39 INFO  [success] Total time: 7 s, completed 16 dic 2024, 19:16:39
+2024.12.16 19:16:41 INFO  [info] loading settings for project root from build.sbt ...
+2024.12.16 19:16:41 INFO  [info] set current project to scala (in build file:/C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/)
+2024.12.16 19:16:42 INFO  [success] Generated .bloop\root-test.json
+2024.12.16 19:16:42 INFO  [success] Generated .bloop\root.json
+2024.12.16 19:16:42 INFO  [success] Total time: 1 s, completed 16 dic 2024, 19:16:42
+2024.12.16 19:16:42 INFO  time: ran 'sbt bloopInstall' in 36s
+2024.12.16 19:16:42 INFO  Attempting to connect to the build server...
+2024.12.16 19:16:42 INFO  No running Bloop server found, starting one.
+2024.12.16 19:16:44 INFO  Starting compilation server
+2024.12.16 19:16:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 19:16:47 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:48 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:51 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:51 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:51 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:51 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\CuentaBancaria.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\CuentaBancaria.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:56 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\CuentaBancaria.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:56 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+dic 16, 2024 7:16:56 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+2024.12.16 19:16:56 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:16:56 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:17:07 ERROR Timeout waiting for 'build/initialize' response
+2024.12.16 19:17:07 WARN  Retrying connection to the build server Bloop
+2024.12.16 19:17:07 INFO  Found a Bloop server running
+2024.12.16 19:17:07 INFO  Shutting down server
+2024.12.16 19:17:07 INFO  shutting down Metals
+2024.12.16 19:17:07 INFO  Exiting server
+2024.12.16 19:17:21 INFO  Started: Metals version 1.4.1 in folders 'C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala' for client Visual Studio Code 1.95.3.
+2024.12.16 19:17:23 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.16 19:17:23 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:17:25 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:17:25 INFO  Attempting to connect to the build server...
+dic 16, 2024 7:17:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2024.12.16 19:17:26 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:17:25 INFO  Found a Bloop server running
+2024.12.16 19:17:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 19:17:32 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+dic 16, 2024 7:17:32 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2024.12.16 19:17:32 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:17:33 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:17:34 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:17:48 ERROR Timeout waiting for 'build/initialize' response
+2024.12.16 19:17:48 WARN  Retrying connection to the build server Bloop
+2024.12.16 19:17:48 INFO  Found a Bloop server running
+2024.12.16 19:17:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 19:18:00 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:18:08 ERROR Timeout waiting for 'build/initialize' response
+2024.12.16 19:18:08 WARN  Retrying connection to the build server Bloop
+2024.12.16 19:18:08 INFO  Found a Bloop server running
+2024.12.16 19:18:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 19:18:29 ERROR Timeout waiting for 'build/initialize' response
+2024.12.16 19:18:29 WARN  Retrying connection to the build server Bloop
+2024.12.16 19:18:29 INFO  Found a Bloop server running
+2024.12.16 19:18:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 19:18:31 INFO  Shutting down server
+2024.12.16 19:18:31 INFO  shutting down Metals
+2024.12.16 19:18:31 INFO  Exiting server
+2024.12.16 19:18:43 INFO  Started: Metals version 1.4.1 in folders 'C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala' for client Visual Studio Code 1.95.3.
+2024.12.16 19:18:45 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.16 19:18:45 INFO  Attempting to connect to the build server...
+2024.12.16 19:18:45 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:18:45 INFO  Found a Bloop server running
+2024.12.16 19:18:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 19:18:50 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:18:57 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:18:59 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:00 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:01 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:01 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:01 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:03 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:03 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:03 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:04 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:07 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:08 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:08 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:09 ERROR Timeout waiting for 'build/initialize' response
+2024.12.16 19:19:09 WARN  Retrying connection to the build server Bloop
+2024.12.16 19:19:09 INFO  Found a Bloop server running
+2024.12.16 19:19:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 19:19:14 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:19:30 ERROR Timeout waiting for 'build/initialize' response
+2024.12.16 19:19:30 WARN  Retrying connection to the build server Bloop
+2024.12.16 19:19:30 INFO  Found a Bloop server running
+2024.12.16 19:19:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 19:19:33 INFO  time: Connected to build server in 47s
+2024.12.16 19:19:33 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.16 19:19:33 INFO  time: Imported build in 0.17s
+2024.12.16 19:19:33 INFO  running doctor check
+2024.12.16 19:19:33 INFO  java targets: root, root-test
+2024.12.16 19:19:36 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.16 19:19:39 INFO  time: indexed workspace in 6.2s
+2024.12.16 19:19:40 INFO  compiling root (24 scala sources)
+dic 16, 2024 7:19:43 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+2024.12.16 19:19:54 INFO  time: compiled root in 13s
+2024.12.16 19:23:11 INFO  Shutting down server
+2024.12.16 19:23:11 INFO  shutting down Metals
+2024.12.16 19:23:11 INFO  Shut down connection with build server.
+2024.12.16 19:23:11 INFO  Exiting server
+2024.12.16 19:42:03 INFO  Started: Metals version 1.4.2 in folders 'C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala' for client Visual Studio Code 1.96.0.
+2024.12.16 19:42:05 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:42:07 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:42:07 INFO  Attempting to connect to the build server...
+2024.12.16 19:42:07 INFO  Found a Bloop server running
+2024.12.16 19:42:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 19:42:11 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 19:42:28 INFO  time: Connected to build server in 21s
+2024.12.16 19:42:28 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.16 19:42:29 INFO  running doctor check
+2024.12.16 19:42:29 INFO  java targets: root, root-test
+2024.12.16 19:42:33 INFO  time: indexed workspace in 4.22s
+2024.12.16 19:42:33 INFO  compiling root (24 scala sources)
+2024.12.16 19:42:42 INFO  Disconnecting from Bloop session...
+2024.12.16 19:42:42 INFO  Cancelling compilation on Bloop server
+2024.12.16 19:42:43 INFO  time: compiled root in 9.94s
+2024.12.16 19:42:43 INFO  Shut down connection with build server.
+2024.12.16 19:42:44 INFO  Attempting to connect to the build server...
+2024.12.16 19:42:44 INFO  No running Bloop server found, starting one.
+2024.12.16 19:42:51 INFO  Starting compilation server
+2024.12.16 19:42:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 19:42:54 INFO  time: Connected to build server in 9.82s
+2024.12.16 19:42:54 INFO  Connected to Build server: Bloop v2.0.6
+2024.12.16 19:42:54 INFO  time: Imported build in 0.14s
+2024.12.16 19:42:54 INFO  running doctor check
+2024.12.16 19:42:54 INFO  java targets: root, root-test
+2024.12.16 19:42:56 INFO  time: indexed workspace in 2s
+2024.12.16 19:42:57 INFO  compiling root (24 scala sources)
+2024.12.16 19:43:09 INFO  time: compiled root in 11s
+2024.12.16 19:59:25 INFO  running 'C:\Program Files\Java\jdk-23\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ESP\AppData\Local\Temp\metals6089368299022256136\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.16 19:59:29 INFO  [info] welcome to sbt 1.10.5 (Oracle Corporation Java 23.0.1)
+2024.12.16 19:59:32 INFO  [info] loading settings for project scala-build-build from metals.sbt ...
+2024.12.16 19:59:34 INFO  [info] loading project definition from C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project\project
+2024.12.16 19:59:54 INFO  [info] loading settings for project scala-build from metals.sbt ...
+2024.12.16 19:59:54 INFO  [info] loading project definition from C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project
+2024.12.16 20:00:11 INFO  [success] Generated .bloop\scala-build.json
+2024.12.16 20:00:11 INFO  [success] Total time: 17 s, completed 16 dic 2024, 20:00:12
+2024.12.16 20:00:22 INFO  [info] loading settings for project root from build.sbt ...
+2024.12.16 20:00:22 INFO  [info] set current project to scala (in build file:/C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/)
+2024.12.16 20:00:25 INFO  [success] Generated .bloop\root-test.json
+2024.12.16 20:00:25 INFO  [success] Generated .bloop\root.json
+2024.12.16 20:00:25 INFO  [success] Total time: 3 s, completed 16 dic 2024, 20:00:26
+2024.12.16 20:00:26 INFO  time: ran 'sbt bloopInstall' in 1m1s
+2024.12.16 20:00:26 INFO  Disconnecting from Bloop session...
+2024.12.16 20:00:26 INFO  Shut down connection with build server.
+2024.12.16 20:00:26 INFO  Attempting to connect to the build server...
+2024.12.16 20:00:26 INFO  Found a Bloop server running
+2024.12.16 20:00:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 20:00:29 INFO  time: Connected to build server in 2.33s
+2024.12.16 20:00:29 INFO  Connected to Build server: Bloop v2.0.6
+2024.12.16 20:00:29 INFO  time: Imported build in 0.21s
+2024.12.16 20:00:29 INFO  running doctor check
+2024.12.16 20:00:29 INFO  java targets: root, root-test
+2024.12.16 20:00:41 INFO  time: indexed workspace in 11s
+2024.12.16 20:03:35 INFO  Shutting down server
+2024.12.16 20:03:35 INFO  shutting down Metals
+2024.12.16 20:03:35 INFO  Shut down connection with build server.
+2024.12.16 20:03:35 INFO  Exiting server
+2024.12.16 20:06:08 INFO  Started: Metals version 1.4.2 in folders 'C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala' for client Visual Studio Code 1.96.0.
+2024.12.16 20:06:10 INFO  Shutting down server
+2024.12.16 20:06:10 INFO  shutting down Metals
+2024.12.16 20:06:10 INFO  Attempting to connect to the build server...
+2024.12.16 20:06:10 INFO  Exiting server
+2024.12.16 20:06:31 INFO  Started: Metals version 1.4.2 in folders 'C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala' for client Visual Studio Code 1.96.0.
+2024.12.16 20:06:36 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\EjerciciosOop\Ejercicio_7.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.16 20:06:36 INFO  Attempting to connect to the build server...
+2024.12.16 20:06:36 INFO  Found a Bloop server running
+2024.12.16 20:06:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 20:06:39 INFO  time: Connected to build server in 3.13s
+2024.12.16 20:06:39 INFO  Connected to Build server: Bloop v2.0.6
+2024.12.16 20:06:40 INFO  time: Imported build in 0.15s
+2024.12.16 20:06:40 INFO  running doctor check
+2024.12.16 20:06:40 INFO  java targets: root, root-test
+2024.12.16 20:06:48 INFO  time: indexed workspace in 8.41s
+2024.12.16 20:12:10 INFO  compiling root (1 scala source)
+2024.12.16 20:12:19 INFO  time: compiled root in 8.51s
+2024.12.16 20:15:19 INFO  Disconnecting from Bloop session...
+2024.12.16 20:15:19 INFO  Shut down connection with build server.
+2024.12.16 20:15:19 INFO  Attempting to connect to the build server...
+2024.12.16 20:15:19 INFO  Found a Bloop server running
+2024.12.16 20:15:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 20:15:19 INFO  time: Connected to build server in 0.51s
+2024.12.16 20:15:19 INFO  Connected to Build server: Bloop v2.0.6
+2024.12.16 20:15:20 INFO  running doctor check
+2024.12.16 20:15:20 INFO  java targets: root, root-test
+2024.12.16 20:15:22 INFO  time: indexed workspace in 2.71s
+2024.12.16 20:16:45 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:45 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:45 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:48 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:48 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:48 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:50 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:50 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:50 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:50 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:50 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:50 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:50 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:50 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:50 WARN  no build target for: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt
+2024.12.16 20:16:51 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:51 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:51 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:51 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:52 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:51 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:51 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:53 WARN  no build target for: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt
+2024.12.16 20:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:54 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:53 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:54 WARN  no build target for: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt
+2024.12.16 20:16:54 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:54 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:54 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:54 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:54 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:54 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:54 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:54 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:16:56 WARN  no build target for: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt
+2024.12.16 20:16:56 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:17:06 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:17:07 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:17:06 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:17:07 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:17:06 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:17:07 WARN  no build target for: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt
+2024.12.16 20:17:07 INFO  skipping build import with status 'Dismissed'
+2024.12.16 20:17:07 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.15
+2024.12.16 20:17:08 INFO  running 'C:\Program Files\Java\jdk-23\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\ESP\AppData\Local\Temp\metals5366114809957151763\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.16 20:17:12 INFO  [info] welcome to sbt 1.10.5 (Oracle Corporation Java 23.0.1)
+2024.12.16 20:17:12 INFO  [info] loading settings for project scala-build-build from metals.sbt ...
+2024.12.16 20:17:14 INFO  [info] loading project definition from C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project\project
+2024.12.16 20:17:16 INFO  [info] loading settings for project scala-build from metals.sbt ...
+2024.12.16 20:17:16 INFO  [info] loading project definition from C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\project
+2024.12.16 20:17:20 INFO  [success] Generated .bloop\scala-build.json
+2024.12.16 20:17:20 INFO  [success] Total time: 5 s, completed 16 dic 2024, 20:17:21
+2024.12.16 20:17:24 INFO  [info] loading settings for project root from build.sbt ...
+2024.12.16 20:17:24 INFO  [info] set current project to scala (in build file:/C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/)
+2024.12.16 20:17:58 INFO  [success] Generated .bloop\root-test.json
+2024.12.16 20:17:58 INFO  [success] Generated .bloop\root.json
+2024.12.16 20:17:58 INFO  [success] Total time: 34 s, completed 16 dic 2024, 20:17:58
+2024.12.16 20:17:58 INFO  time: ran 'sbt bloopInstall' in 49s
+2024.12.16 20:17:58 INFO  Disconnecting from Bloop session...
+2024.12.16 20:17:58 INFO  Shut down connection with build server.
+2024.12.16 20:17:58 INFO  Attempting to connect to the build server...
+2024.12.16 20:17:58 INFO  Found a Bloop server running
+2024.12.16 20:17:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.12.16 20:17:58 INFO  time: Connected to build server in 0.59s
+2024.12.16 20:17:58 INFO  Connected to Build server: Bloop v2.0.6
+2024.12.16 20:17:58 INFO  running doctor check
+2024.12.16 20:17:58 INFO  java targets: root, root-test
+2024.12.16 20:18:04 INFO  time: indexed workspace in 5.54s
+2024.12.16 20:18:04 WARN  no build target for: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt
+2024.12.16 20:18:04 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 3.6.2
+2024.12.16 20:18:05 INFO  compiling root (24 scala sources)
+2024.12.16 20:18:08 INFO  time: code lens generation in 3.7s
+2024.12.16 20:18:18 INFO  time: compiled root in 13s
+2024.12.16 20:18:18 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\build.sbt. Using presentation compiler with project's scala-library version: 3.6.2
+2024.12.16 20:26:34 INFO  Shutting down server
+2024.12.16 20:26:34 INFO  shutting down Metals
+2024.12.16 20:26:34 INFO  Shut down connection with build server.
+2024.12.16 20:26:34 INFO  Exiting server
