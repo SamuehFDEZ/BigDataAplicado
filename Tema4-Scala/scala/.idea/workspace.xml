@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="340bd191-d503-4118-887f-bc9c97bbf1dc" name="Changes" comment="" />
+    <list default="true" id="340bd191-d503-4118-887f-bc9c97bbf1dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +35,9 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
@@ -56,56 +62,97 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CallByValueName.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Companion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CuentaBancaria.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejercicio1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejercicio2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejercicio3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejercicio4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejercicio5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EjercicioCalculaDescuento.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejercicio_7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ejercicios.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EsPrimo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EscritorNovela.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Expresiones.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Herencia.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HolaMundo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Mascota.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Method_Notations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Oop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Producto.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Recursividad.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Recursividad_cadenas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringOps.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValuesVariablesTypes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.funciones.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ESP/.sbt/boot/scala-2.12.20/org.scala-sbt/sbt/1.10.6/sbt-1.10.6.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.1150748&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;sbt.project.settings.configurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CallByValueName.executor": "Run",
+    "Application.CaseClase.executor": "Run",
+    "Application.CaseClase2.executor": "Run",
+    "Application.CaseClases.CaseClase.executor": "Run",
+    "Application.Companion.executor": "Run",
+    "Application.CuentaBancaria.executor": "Run",
+    "Application.Ejercicio1.executor": "Run",
+    "Application.Ejercicio2.executor": "Run",
+    "Application.Ejercicio3.executor": "Run",
+    "Application.Ejercicio4.executor": "Run",
+    "Application.Ejercicio5.executor": "Run",
+    "Application.EjercicioCalculaDescuento.executor": "Run",
+    "Application.EjercicioEnum.executor": "Run",
+    "Application.Ejercicio_7.executor": "Run",
+    "Application.Ejercicios.executor": "Debug",
+    "Application.EsPrimo.executor": "Run",
+    "Application.EscritorNovela.executor": "Run",
+    "Application.Expresiones.executor": "Run",
+    "Application.Herencia.executor": "Run",
+    "Application.HolaMundo.executor": "Run",
+    "Application.Main.executor": "Debug",
+    "Application.Mascota.executor": "Run",
+    "Application.Method_Notations.executor": "Run",
+    "Application.Oop.executor": "Run",
+    "Application.Producto.executor": "Run",
+    "Application.Recursividad.executor": "Run",
+    "Application.Recursividad_cadenas.executor": "Run",
+    "Application.StringOps.executor": "Run",
+    "Application.ValuesVariablesTypes.executor": "Run",
+    "Application.funciones.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ESP/.sbt/boot/scala-2.12.20/org.scala-sbt/sbt/1.10.6/sbt-1.10.6.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.1150748",
+    "settings.editor.selected.configurable": "sbt.project.settings.configurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\CaseClases" />
       <recent name="C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ejercicio4">
+  <component name="RunManager" selected="Application.EjercicioEnum">
+    <configuration name="CaseClase" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="CaseClase" />
+      <module name="scala" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaseClase2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="CaseClases.CaseClase2" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CaseClases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaseClases.CaseClase" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="CaseClases.CaseClase" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CaseClases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Companion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="EjerciciosOop.Companion" />
       <module name="scala" />
@@ -116,32 +163,6 @@
         </pattern>
       </extension>
       <method v="2" />
-    </configuration>
-    <configuration name="Ejercicio1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="AbstractTrait.Ejercicio1" />
-      <module name="scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AbstractTrait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ejercicio2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="AbstractTrait.Ejercicio2" />
-      <module name="scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AbstractTrait.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Ejercicio4" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="AbstractTrait.Ejercicio4" />
@@ -156,25 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ejercicio_7" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="EjerciciosOop.Ejercicio_7" />
+    <configuration name="EjercicioEnum" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="CaseClases.EjercicioEnum" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EjerciciosOop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Herencia" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="EjerciciosOop.Herencia" />
-      <module name="scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EjerciciosOop.*" />
+          <option name="PATTERN" value="CaseClases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,19 +192,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Companion" />
+      <item itemvalue="Application.CaseClase" />
+      <item itemvalue="Application.CaseClase2" />
+      <item itemvalue="Application.CaseClases.CaseClase" />
+      <item itemvalue="Application.EjercicioEnum" />
       <item itemvalue="Application.Ejercicio4" />
-      <item itemvalue="Application.Ejercicio1" />
-      <item itemvalue="Application.Ejercicio2" />
-      <item itemvalue="Application.Herencia" />
-      <item itemvalue="Application.Ejercicio_7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjercicioEnum" />
+        <item itemvalue="Application.CaseClases.CaseClase" />
+        <item itemvalue="Application.CaseClase2" />
+        <item itemvalue="Application.CaseClase" />
         <item itemvalue="Application.Ejercicio4" />
-        <item itemvalue="Application.Ejercicio2" />
-        <item itemvalue="Application.Ejercicio1" />
-        <item itemvalue="Application.Herencia" />
-        <item itemvalue="Application.Ejercicio_7" />
       </list>
     </recent_temporary>
   </component>
@@ -275,6 +283,9 @@
       <workItem from="1734704693742" duration="126000" />
       <workItem from="1734704962448" duration="1152000" />
       <workItem from="1734979234801" duration="1222000" />
+      <workItem from="1736100106335" duration="586000" />
+      <workItem from="1736266416185" duration="5035000" />
+      <workItem from="1736272741057" duration="969000" />
     </task>
     <servers />
   </component>
