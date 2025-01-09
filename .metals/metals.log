@@ -684,3 +684,140 @@ INFO: Unsupported notification method: $/setTrace
 2024.11.27 16:10:32 INFO  shutting down Metals
 2024.11.27 16:10:32 INFO  Shut down connection with build server.
 2024.11.27 16:10:32 INFO  Exiting server
+2025.01.09 12:12:17 INFO  Started: Metals version 1.4.2 in folders 'C:\Users\ESP\Desktop\BigDataAplicado' for client Visual Studio Code 1.96.2.
+2025.01.09 12:12:20 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Functions\Functions1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.09 12:12:21 INFO  Attempting to connect to the build server...
+2025.01.09 12:12:21 INFO  Running BSP server List(C:\Users\ESP\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ESP\Desktop\BigDataAplicado\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\ESP\Desktop\BigDataAplicado\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\ESP\Desktop\BigDataAplicado\.scala-build\ide-envs.json, C:\Users\ESP\Desktop\BigDataAplicado)
+2025.01.09 12:12:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.01.09 12:12:31 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Functions\Functions1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.09 12:12:34 INFO  BSP server: Starting compilation server
+2025.01.09 12:12:36 WARN  no build target for: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Functions\Functions1.scala
+2025.01.09 12:12:36 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Functions\Functions1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.09 12:12:36 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Functions\Functions1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.09 12:12:36 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Functions\Functions1.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1494)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1026)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:173)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2025.01.09 12:12:37 INFO  no build target found for C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala\Functions\Functions1.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.01.09 12:12:41 INFO  time: Connected to build server in 20s
+2025.01.09 12:12:41 INFO  Connected to Build server: scala-cli v1.5.4
+2025.01.09 12:12:41 INFO  time: Imported build in 0.25s
+2025.01.09 12:12:41 INFO  running doctor check
+2025.01.09 12:12:41 INFO  java targets: BigDataAplicado_d5c0a6989e, BigDataAplicado_d5c0a6989e-test
+2025.01.09 12:12:44 INFO  compiling bigdataaplicado_d5c0a6989e (37 scala sources)
+2025.01.09 12:12:52 INFO  time: indexed workspace in 10s
+2025.01.09 12:12:59 INFO  time: compiled BigDataAplicado_d5c0a6989e in 15s
+2025.01.09 12:12:59 INFO  compiling bigdataaplicado_d5c0a6989e (37 scala sources)
+2025.01.09 12:13:05 INFO  time: compiled BigDataAplicado_d5c0a6989e in 4.88s
+2025.01.09 12:13:05 INFO  compiling bigdataaplicado_d5c0a6989e (37 scala sources)
+2025.01.09 12:13:07 INFO  time: compiled BigDataAplicado_d5c0a6989e in 2.27s
+2025.01.09 12:13:09 INFO  compiling bigdataaplicado_d5c0a6989e (37 scala sources)
+2025.01.09 12:13:11 INFO  time: compiled BigDataAplicado_d5c0a6989e in 1.88s
+2025.01.09 12:13:25 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:53)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:92)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1494)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1026)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:173)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2025.01.09 12:13:26 INFO  compiling bigdataaplicado_d5c0a6989e (37 scala sources)
+2025.01.09 12:13:28 INFO  time: compiled BigDataAplicado_d5c0a6989e in 1.51s
+ene 09, 2025 12:13:36 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+2025.01.09 12:13:38 INFO  compiling bigdataaplicado_d5c0a6989e (37 scala sources)
+2025.01.09 12:13:40 INFO  time: compiled BigDataAplicado_d5c0a6989e in 2.58s
+2025.01.09 12:13:40 INFO  compiling bigdataaplicado_d5c0a6989e (37 scala sources)
+2025.01.09 12:13:42 INFO  time: compiled BigDataAplicado_d5c0a6989e in 1.21s
+2025.01.09 12:13:42 INFO  compiling bigdataaplicado_d5c0a6989e (37 scala sources)
+2025.01.09 12:13:44 INFO  time: compiled BigDataAplicado_d5c0a6989e in 0.94s
+2025.01.09 12:13:44 INFO  compiling bigdataaplicado_d5c0a6989e (37 scala sources)
+ene 09, 2025 12:13:46 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+2025.01.09 12:13:49 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:53)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:92)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1494)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1026)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:173)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2025.01.09 12:13:51 INFO  time: compiled BigDataAplicado_d5c0a6989e in 6.77s
+2025.01.09 12:13:51 INFO  compiling bigdataaplicado_d5c0a6989e (37 scala sources)
+2025.01.09 12:13:56 INFO  time: compiled BigDataAplicado_d5c0a6989e in 4.08s
+2025.01.09 12:14:02 WARN  Could not find semantic tokens for: file:///C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/src/main/scala/Functions/Functions2.scala
+2025.01.09 12:14:03 INFO  compiling bigdataaplicado_d5c0a6989e (37 scala sources)
+ene 09, 2025 12:14:08 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+2025.01.09 12:14:11 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$WorkspaceErrorsException$.<clinit>(DiscoveryFailures.scala:53)
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:92)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1494)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1026)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:173)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1575)
+
+2025.01.09 12:14:12 INFO  time: compiled BigDataAplicado_d5c0a6989e in 9.26s
+2025.01.09 12:15:03 INFO  Shutting down server
+2025.01.09 12:15:03 INFO  shutting down Metals
+2025.01.09 12:15:03 INFO  Shut down connection with build server.
+2025.01.09 12:15:03 INFO  Exiting server

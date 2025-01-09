@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="340bd191-d503-4118-887f-bc9c97bbf1dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.metals/metals.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metals/metals.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.metals/metals.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metals/metals.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e/BigDataAplicado_d5c0a6989e-analysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e/BigDataAplicado_d5c0a6989e-analysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e/bloop-internal-classes/main-PknwYTmIT4qLYxO3eawoIA==/HolaMundo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e/bloop-internal-classes/main-PknwYTmIT4qLYxO3eawoIA==/HolaMundo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e/bloop-internal-classes/main-PknwYTmIT4qLYxO3eawoIA==/HolaMundo.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e/bloop-internal-classes/main-PknwYTmIT4qLYxO3eawoIA==/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/HolaMundo.scala.semanticdb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/.bloop/scala-build.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/.bloop/scala-build.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +89,12 @@
     "Application.Ejercicios.executor": "Debug",
     "Application.EsPrimo.executor": "Run",
     "Application.EscritorNovela.executor": "Run",
+    "Application.Excepciones.executor": "Run",
     "Application.Expresiones.executor": "Run",
+    "Application.Funciones1.executor": "Run",
+    "Application.Funciones2.executor": "Run",
+    "Application.Functions.executor": "Run",
+    "Application.Functions2.executor": "Run",
     "Application.Herencia.executor": "Run",
     "Application.HolaMundo.executor": "Run",
     "Application.Main.executor": "Debug",
@@ -119,40 +132,7 @@
       <recent name="C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjercicioEnum">
-    <configuration name="CaseClase" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="CaseClase" />
-      <module name="scala" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaseClase2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="CaseClases.CaseClase2" />
-      <module name="scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CaseClases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaseClases.CaseClase" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="CaseClases.CaseClase" />
-      <module name="scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CaseClases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Funciones1">
     <configuration name="Companion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="EjerciciosOop.Companion" />
       <module name="scala" />
@@ -164,12 +144,12 @@
       </extension>
       <method v="2" />
     </configuration>
-    <configuration name="Ejercicio4" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="AbstractTrait.Ejercicio4" />
+    <configuration name="Excepciones" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Excepciones.Excepciones" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AbstractTrait.*" />
+          <option name="PATTERN" value="Excepciones.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +157,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjercicioEnum" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="CaseClases.EjercicioEnum" />
+    <configuration name="Funciones1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Functions.Funciones1" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CaseClases.*" />
+          <option name="PATTERN" value="Functions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Funciones2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Functions.Funciones2" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Functions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Functions1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Functions.Functions1" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Functions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Functions2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Functions.Functions2" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,19 +211,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Companion" />
-      <item itemvalue="Application.CaseClase" />
-      <item itemvalue="Application.CaseClase2" />
-      <item itemvalue="Application.CaseClases.CaseClase" />
-      <item itemvalue="Application.EjercicioEnum" />
-      <item itemvalue="Application.Ejercicio4" />
+      <item itemvalue="Application.Funciones2" />
+      <item itemvalue="Application.Funciones1" />
+      <item itemvalue="Application.Functions1" />
+      <item itemvalue="Application.Excepciones" />
+      <item itemvalue="Application.Functions2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjercicioEnum" />
-        <item itemvalue="Application.CaseClases.CaseClase" />
-        <item itemvalue="Application.CaseClase2" />
-        <item itemvalue="Application.CaseClase" />
-        <item itemvalue="Application.Ejercicio4" />
+        <item itemvalue="Application.Funciones1" />
+        <item itemvalue="Application.Excepciones" />
+        <item itemvalue="Application.Funciones2" />
+        <item itemvalue="Application.Functions2" />
+        <item itemvalue="Application.Functions1" />
       </list>
     </recent_temporary>
   </component>
@@ -286,11 +305,28 @@
       <workItem from="1736100106335" duration="586000" />
       <workItem from="1736266416185" duration="5035000" />
       <workItem from="1736272741057" duration="969000" />
+      <workItem from="1736359851797" duration="3077000" />
+      <workItem from="1736363126931" duration="2173000" />
+      <workItem from="1736419565679" duration="325000" />
+      <workItem from="1736420050255" duration="321000" />
+      <workItem from="1736421546829" duration="348000" />
+      <workItem from="1736422085882" duration="202000" />
+      <workItem from="1736422823656" duration="392000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
