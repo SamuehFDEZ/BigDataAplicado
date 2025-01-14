@@ -5,16 +5,213 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="340bd191-d503-4118-887f-bc9c97bbf1dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Functions/Anonimas/Anonimas.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.metals/metals.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metals/metals.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.metals/metals.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../.metals/metals.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e/BigDataAplicado_d5c0a6989e-analysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e/BigDataAplicado_d5c0a6989e-analysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e/bloop-internal-classes/main-PknwYTmIT4qLYxO3eawoIA==/HolaMundo$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e/bloop-internal-classes/main-PknwYTmIT4qLYxO3eawoIA==/HolaMundo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e/bloop-internal-classes/main-PknwYTmIT4qLYxO3eawoIA==/HolaMundo.tasty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.scala-build/.bloop/BigDataAplicado_d5c0a6989e/bloop-internal-classes/main-PknwYTmIT4qLYxO3eawoIA==/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/HolaMundo.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Asistente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Asistente.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Dispositivo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Dispositivo.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Ejercicio1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Ejercicio1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Ejercicio1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Ejercicio2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Ejercicio2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Ejercicio2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Ejercicio3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Ejercicio3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Ejercicio3.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Ejercicio4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Ejercicio4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Ejercicio4.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/FormaDePago.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/FormaDePago.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Lavadora.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Lavadora.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Obrero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Obrero.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Paypal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Paypal.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Refrigerador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Refrigerador.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Tablet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Tablet.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Tarjeta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Tarjeta.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Telefono.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Telefono.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Transferencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/Transferencia.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/asistir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/asistir.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/conexionWifi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/conexionWifi.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/levantaPeso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/levantaPeso.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/progAut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/progAut.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/robot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/AbstractTrait/robot.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CallByValueName$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CallByValueName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CallByValueName.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/CaseClase$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/CaseClase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/CaseClase.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/CaseClase2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/CaseClase2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/CaseClase2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/EjercicioEnum$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/EjercicioEnum$Color$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/EjercicioEnum$Color$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/EjercicioEnum$Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/EjercicioEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/EjercicioEnum.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/Libro$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/Libro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/Libro.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/Operacion$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/Operacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/CaseClases/Operacion.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjercicioCalculaDescuento$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjercicioCalculaDescuento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjercicioCalculaDescuento.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio3.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio4.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Ejercicio5.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Escritor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Escritor.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/EscritorNovela$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/EscritorNovela.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/EscritorNovela.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Novela.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Ejercicios/Novela.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Companion$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Companion.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/CuentaBancaria$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/CuentaBancaria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/CuentaBancaria.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Ejercicio_7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Ejercicio_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Ejercicio_7.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Herencia$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Herencia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Herencia.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Libro$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Libro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Libro.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Mascota$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Mascota.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Mascota.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Producto$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Producto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Producto.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Sistema$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Sistema.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Sistema.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Vehiculo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Vehiculo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/Vehiculo.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/coche.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EjerciciosOop/coche.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EsPrimo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EsPrimo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/EsPrimo.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Excepciones/Excepciones$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Excepciones/Excepciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Excepciones/Excepciones.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Expresiones$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Expresiones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Expresiones.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Funciones$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Funciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Funciones.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Functions/Functions1$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Functions/Functions1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Functions/Functions1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Functions/Functions1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/HolaMundo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/HolaMundo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/HolaMundo.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/AbstractTrait/AbstractTrait.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/AbstractTrait/Ejercicio1.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/AbstractTrait/Ejercicio2.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/AbstractTrait/Ejercicio3.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/AbstractTrait/Ejercicio4.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/CallByValueName.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/CaseClases/CaseClase.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/CaseClases/CaseClase2.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/CaseClases/EjercicioEnum.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/EjercicioCalculaDescuento.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Ejercicios.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Ejercicios/Ejercicio1.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Ejercicios/Ejercicio2.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Ejercicios/Ejercicio3.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Ejercicios/Ejercicio4.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Ejercicios/Ejercicio5.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Ejercicios/EscritorNovela.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/EjerciciosOop/Companion.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/EjerciciosOop/CuentaBancaria.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/EjerciciosOop/Ejercicio_7.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/EjerciciosOop/Herencia.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/EjerciciosOop/Mascota.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/EjerciciosOop/Producto.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/EsPrimo.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Excepciones/Excepciones.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Expresiones.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Funciones.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Functions/Functions1.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Functions/Functions2.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/HolaMundo.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Method_Notations.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Oop.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Recursividad.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Recursividad_cadenas.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/StringOps.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/ValuesVariablesTypes.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/META-INF/semanticdb/Tema4-Scala/scala/src/main/scala/Varianza.scala.semanticdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Method_Notations$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Method_Notations$Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Method_Notations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Method_Notations.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Oop$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Oop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Oop.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Persona.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Recursividad$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Recursividad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Recursividad.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Recursividad_cadenas$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Recursividad_cadenas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Recursividad_cadenas.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/StringOps$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/StringOps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/StringOps.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/ValuesVariablesTypes$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/ValuesVariablesTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/ValuesVariablesTypes.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Varianza$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Varianza.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.scala-build/BigDataAplicado_d5c0a6989e/classes/main/Varianza.tasty" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/.bloop/scala-build.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/.bloop/scala-build.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +269,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Anonimas.executor": "Run",
     "Application.CallByValueName.executor": "Run",
     "Application.CaseClase.executor": "Run",
     "Application.CaseClase2.executor": "Run",
@@ -119,9 +317,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.1150748",
+    "project.structure.side.proportion": "0.25862068",
     "settings.editor.selected.configurable": "sbt.project.settings.configurable",
     "vue.rearranger.settings.migration": "true"
   }
@@ -132,7 +330,44 @@
       <recent name="C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\src\main\scala" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Funciones1">
+  <component name="RunManager" selected="Application.Anonimas">
+    <configuration name="Anonimas" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Functions.Anonimas.Anonimas" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Functions.Anonimas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Anonimas" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Functions.Anonimas.Anonimas" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Functions.Anonimas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Companion" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="EjerciciosOop.Companion" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EjerciciosOop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2" />
+    </configuration>
     <configuration name="Companion" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="EjerciciosOop.Companion" />
       <module name="scala" />
@@ -150,6 +385,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Excepciones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Excepciones" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Excepciones.Excepciones" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Excepciones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Funciones1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Functions.Funciones1" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,8 +444,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functions1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Functions.Functions1" />
+    <configuration name="Funciones2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Functions.Funciones2" />
       <module name="scala" />
       <extension name="coverage">
         <pattern>
@@ -211,19 +472,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Companion" />
-      <item itemvalue="Application.Funciones2" />
-      <item itemvalue="Application.Funciones1" />
-      <item itemvalue="Application.Functions1" />
+      <item itemvalue="Application.Anonimas" />
       <item itemvalue="Application.Excepciones" />
+      <item itemvalue="Application.Funciones1" />
+      <item itemvalue="Application.Funciones2" />
       <item itemvalue="Application.Functions2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Anonimas" />
         <item itemvalue="Application.Funciones1" />
         <item itemvalue="Application.Excepciones" />
         <item itemvalue="Application.Funciones2" />
         <item itemvalue="Application.Functions2" />
-        <item itemvalue="Application.Functions1" />
       </list>
     </recent_temporary>
   </component>
@@ -312,6 +573,12 @@
       <workItem from="1736421546829" duration="348000" />
       <workItem from="1736422085882" duration="202000" />
       <workItem from="1736422823656" duration="392000" />
+      <workItem from="1736529023108" duration="4000" />
+      <workItem from="1736605997539" duration="3000" />
+      <workItem from="1736607070700" duration="382000" />
+      <workItem from="1736626854260" duration="4000" />
+      <workItem from="1736795329408" duration="1385000" />
+      <workItem from="1736796776999" duration="248000" />
     </task>
     <servers />
   </component>

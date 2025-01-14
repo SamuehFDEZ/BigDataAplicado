@@ -23,7 +23,7 @@ object Ejercicios extends App {
      else esPrimo(num, divisor + 1) // Sigue con el siguiente divisor
    }
 
-  println(esPrimo(2))  // true
+  //println(esPrimo(2))  // true
 //  println(esPrimo(7))  // true
 //  println(esPrimo(42)) // false
 //
