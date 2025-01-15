@@ -1,7 +1,0 @@
-[debug] > Exec(all {file:/C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/}root/products {file:/C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/}root/test:products, None, None)
-[debug] Evaluating tasks: Compile / products, Test / products
-[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
-[info] compiling 2 Scala sources to C:\Users\ESP\Desktop\BigDataAplicado\Tema4-Scala\scala\target\scala-3.6.2\classes ...
-[info] done compiling
-[success] Total time: 6 s, completed 17 dic 2024, 19:05:54
-[debug] > Exec(idea-shell, None, None)
