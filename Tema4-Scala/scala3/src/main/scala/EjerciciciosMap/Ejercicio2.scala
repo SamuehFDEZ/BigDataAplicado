@@ -9,10 +9,7 @@ object Ejercicio2 {
     def main(args: Array[String]): Unit = {
         val mensajes = frutas.indices
           .filter(fruta => precios(fruta) > 3)
-          .map(fruta => {
-              val precioTotal = precios(fruta) * cantidadFruta(fruta)
-              s"Fruta: ${frutas(fruta)}, Precio total: $precioTotal"
-          })
+          .map(fruta => s"Fruta: ${frutas(fruta)}, Precio total: ${precios(fruta) * cantidadFruta(fruta)}")
 
         mensajes.foreach(println)
     }
