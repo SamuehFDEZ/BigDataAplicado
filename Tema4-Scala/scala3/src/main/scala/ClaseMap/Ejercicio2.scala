@@ -1,5 +1,5 @@
 package esp.scala3.app
-package Map
+package ClaseMap
 
 object Ejercicio2 extends App{
   val listaNums = List("hola", "soy", "lucas", "adoro", "scala")
