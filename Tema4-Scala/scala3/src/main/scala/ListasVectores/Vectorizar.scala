@@ -30,3 +30,6 @@ object Vectorizar extends App {
   println(getWriteTime(numberLists))
   println(getWriteTime(numberVector))
 }
+/* Dado que las listas y los vectores se comportan de forma diferente internamente, el tiempo de updated
+* en los vectores es más eficientes que en las listas, al menos en este caso, porque las listas en otros
+* casos serán más eficientes que los vectores */
