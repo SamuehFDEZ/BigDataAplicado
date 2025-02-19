@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "C:\\Users\\ESP\\AppData\\Local\\Coursier\\data\\bin\\.scala-cli.aux.exe",
+    "bsp",
+    "--json-options",
+    "C:\\Users\\ESP\\Desktop\\BigDataAplicado\\Tema5-Spark\\.scala-build\\ide-options-v2.json",
+    "--json-launcher-options",
+    "C:\\Users\\ESP\\Desktop\\BigDataAplicado\\Tema5-Spark\\.scala-build\\ide-launcher-options.json",
+    "--envs-file",
+    "C:\\Users\\ESP\\Desktop\\BigDataAplicado\\Tema5-Spark\\.scala-build\\ide-envs.json",
+    "C:\\Users\\ESP\\Desktop\\BigDataAplicado\\Tema5-Spark"
+  ],
+  "version": "1.5.4",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
