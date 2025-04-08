@@ -41,11 +41,11 @@ lab0_zookeeper_1   /etc/confluent/docker/run   Up      0.0.0.0:2181->2181/tcp, 2
 Check the ZooKeeper logs to verify that ZooKeeper is healthy.
 
 ```sh
-docker-compose logs zookeeper | Select-String binding    #for windows
+docker-compose logs zookeeper > zookeeper.log   #for windows
 docker-compose logs zookeeper | grep -i binding          #for linux
 ```
 
-Sample output: 
+Sample output: comprobar que aparece el INFO binding to port en el fichero log.
 
 ```sh
 zookeeper    | [2020-02-18 15:49:28,229] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
@@ -53,10 +53,10 @@ zookeeper    | [2020-02-18 15:49:28,229] INFO binding to port 0.0.0.0/0.0.0.0:21
 
 ### Check Kafka Broker 
 
-Check the Kafka logs to verify that broker is healthy.
+
 
 ```sh
-docker-compose logs kafka | Select-String started    #for windows
+docker-compose logs kafka > kafka.log   #for windows
 docker-compose logs kafka | grep -i started          #for linux
 ```
 
@@ -75,7 +75,7 @@ kafka_1      | [2020-02-18 16:05:21,727] INFO [KafkaServer id=1] started (kafka.
 Create a topic named `myTopic`, one partition and one replica.
 
 ```sh
-docker-compose exec broker kafka-topics --create --topic myTopic --partitions 1 --replication-factor 1 --if-not-exists --bootstrap-server localhost:9092
+docker-compose exec kafka kafka-topics --create --topic myTopic --partitions 1 --replication-factor 1 --if-not-exists --bootstrap-server localhost:9092
 ```
 
 Output: 
@@ -88,7 +88,7 @@ Created topic myTopic.
 
 Produce messages (It is very didactic to execute below command in more than once console at the same time):
 ```sh
-docker-compose exec broker kafka-console-producer --topic myTopic --broker-list localhost:9092
+docker-compose exec kafka kafka-console-producer --topic myTopic --broker-list localhost:9092
 >hi
 >dlp
 >
@@ -99,7 +99,7 @@ docker-compose exec broker kafka-console-producer --topic myTopic --broker-list 
 Read topic content (It is very didactic to execute below command in more than once console at the same time):
 
 ```sh
-docker-compose exec broker kafka-console-consumer --topic myTopic --from-beginning --bootstrap-server localhost:9092
+docker-compose exec kafka kafka-console-consumer --topic myTopic --from-beginning --bootstrap-server localhost:9092
 hi
 dlp
 ```
@@ -107,7 +107,7 @@ dlp
 ## 6) Produce Messages with keys
 Send KEY-VALUES:
 ```sh
-docker-compose exec broker kafka-console-producer --topic myTopic --broker-list localhost:9092 --property "parse.key=true" --property "key.separator=:"
+docker-compose exec kafka kafka-console-producer --topic myTopic --broker-list localhost:9092 --property "parse.key=true" --property "key.separator=:"
 spain:3
 french:4
 germany:2
@@ -122,7 +122,7 @@ Open a browser at at http://localhost:8080/
 ## 8) Describe the Kafka topic
 
 ```sh
-docker-compose exec broker kafka-topics --describe --topic myTopic --bootstrap-server host.docker.internal:9092
+docker-compose exec kafka kafka-topics --describe --topic myTopic --bootstrap-server host.docker.internal:9092
 ```
 
 Output:

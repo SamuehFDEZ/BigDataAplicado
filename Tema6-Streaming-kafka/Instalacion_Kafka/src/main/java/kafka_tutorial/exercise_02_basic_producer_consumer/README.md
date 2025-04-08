@@ -39,7 +39,7 @@ lab1_zookeeper_1   /etc/confluent/docker/run   Up      0.0.0.0:2181->2181/tcp, 2
 Run the command line producer:
 
 ```sh
-$ docker-compose exec broker kafka-console-producer --topic myTopic --broker-list localhost:9092
+$ docker-compose exec kafka kafka-console-producer --topic myTopic --broker-list localhost:9092
 >hi
 >dlp
 >
@@ -49,7 +49,7 @@ $ docker-compose exec broker kafka-console-producer --topic myTopic --broker-lis
 ## 3) Read topic content:
 
 ```sh
-$ docker-compose exec broker kafka-console-consumer --topic myTopic --from-beginning --bootstrap-server localhost:9092
+$ docker-compose exec kafka kafka-console-consumer --topic myTopic --from-beginning --bootstrap-server localhost:9092
 hi
 dlp
 ```
