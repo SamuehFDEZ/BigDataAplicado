@@ -1,9 +1,13 @@
 package kafka_tutorial.exercise_02_basic_producer_consumer;
 
+import com.google.gson.Gson;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Properties;
+import java.util.UUID;
 
 public class Producer {
 
@@ -13,12 +17,18 @@ public class Producer {
         properties.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         properties.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 
-        KafkaProducer<String, String> kafkaProducer = new KafkaProducer<String, String>(properties);
+        KafkaProducer<String, String> kafkaProducer = new KafkaProducer<>(properties);
+        Gson gson = new Gson();
+
         try{
-            for(int i = 0; i < 100000; i++){
+            for(int i = 0; i < 1000; i++){
                 Thread.sleep(1000);
-                System.out.println(i);
-                kafkaProducer.send(new ProducerRecord<String, String>("myTopic", Integer.toString(i), "test message - " + i ));
+                String orderId = UUID.randomUUID().toString();
+                List<String> items = Arrays.asList("itemA", "itemB", "itemC");
+                Order order = new Order(orderId, "Cliente " + i, items, 99.99 + i);
+                String jsonOrder = gson.toJson(order);
+                System.out.println("Enviando: " + jsonOrder);
+                kafkaProducer.send(new ProducerRecord<>("myTopic", orderId, jsonOrder));
             }
         }catch (Exception e){
             e.printStackTrace();
