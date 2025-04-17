@@ -1,6 +1,6 @@
 package kafka_tutorial.exercise_03_kafka_streams;
 
-import com.github.javafaker.Book;
+import com.github.javafaker.Esports;
 import com.github.javafaker.Commerce;
 import com.github.javafaker.Faker;
 import org.apache.kafka.clients.producer.KafkaProducer;
@@ -32,11 +32,11 @@ public class Producer_01 {
         try{
             for(int i = 0; i < 100000; i++){
                 Thread.sleep(100);
-                Book b = faker.book();
-                System.out.println(b.author() + "   " + b.genre()  + "   " + b.publisher()  + "   "  + b.title() );
-                String quote = faker.shakespeare().asYouLikeItQuote();
-                //System.out.println(quote);
-                //kafkaProducer.send(new ProducerRecord<String, String>("quotes-input", quote ));
+                Esports es = faker.esports();
+                System.out.println("Event: " + es.event() + "  Game: " + es.game()  + "  League " + es.league()  + " Team  "  + es.team()+ " Player  "  + es.player());
+                String quote = faker.yoda().quote();
+                System.out.println(quote);
+                kafkaProducer.send(new ProducerRecord<String, String>("quotes-input", quote ));
             }
         }catch (Exception e){
             e.printStackTrace();
