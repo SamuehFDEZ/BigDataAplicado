@@ -828,3 +828,41 @@ WARNING: Unmatched cancel notification for request id 92
 2025.01.10 17:01:51 INFO  Shutting down server
 2025.01.10 17:01:51 INFO  shutting down Metals
 2025.01.10 17:01:51 INFO  Exiting server
+2025.04.30 19:56:00 INFO  Started: Metals version 1.5.2 in folders 'C:\Users\ESP\Desktop\BigDataAplicado' for client Visual Studio Code 1.99.2.
+2025.04.30 19:56:03 INFO  Attempting to connect to the build server...
+2025.04.30 19:56:03 INFO  Running BSP server List(C:\Users\ESP\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ESP\Desktop\BigDataAplicado\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\ESP\Desktop\BigDataAplicado\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\ESP\Desktop\BigDataAplicado\.scala-build\ide-envs.json, C:\Users\ESP\Desktop\BigDataAplicado)
+2025.04.30 19:56:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\.metals\bsp.trace.json
+2025.04.30 19:56:14 INFO  BSP server: Starting compilation server
+2025.04.30 19:56:23 INFO  time: Connected to build server in 19s
+2025.04.30 19:56:23 INFO  Connected to Build server: scala-cli v1.5.4
+2025.04.30 19:56:23 INFO  time: Imported build in 0.42s
+2025.04.30 19:56:27 INFO  compiling bigdataaplicado_d5c0a6989e (69 scala sources and 20 java sources)
+2025.04.30 19:56:42 INFO  time: indexed workspace in 19s
+2025.04.30 19:56:56 WARN  Invalid text document uri received from build server: file:///C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/src/main/scala/Method_Notations.scala
+2025.04.30 19:56:56 WARN  Invalid text document uri received from build server: file:///C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/src/main/scala/Ejercicios.scala
+2025.04.30 19:56:56 INFO  time: compiled BigDataAplicado_d5c0a6989e in 29s
+2025.04.30 19:56:58 INFO  compiling bigdataaplicado_d5c0a6989e (69 scala sources and 20 java sources)
+2025.04.30 19:57:10 INFO  time: compiled BigDataAplicado_d5c0a6989e in 11s
+2025.04.30 20:02:24 INFO  Shutting down server
+2025.04.30 20:02:24 INFO  shutting down Metals
+2025.04.30 20:02:24 INFO  Shut down connection with build server.
+2025.04.30 20:02:24 INFO  Exiting server
+2025.05.03 15:23:03 INFO  Started: Metals version 1.5.2 in folders 'C:\Users\ESP\Desktop\BigDataAplicado' for client Visual Studio Code 1.99.3.
+2025.05.03 15:23:06 INFO  Attempting to connect to the build server...
+2025.05.03 15:23:06 INFO  Running BSP server List(C:\Users\ESP\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ESP\Desktop\BigDataAplicado\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\ESP\Desktop\BigDataAplicado\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\ESP\Desktop\BigDataAplicado\.scala-build\ide-envs.json, C:\Users\ESP\Desktop\BigDataAplicado)
+2025.05.03 15:23:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ESP\Desktop\BigDataAplicado\.metals\bsp.trace.json or C:\Users\ESP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.03 15:23:12 INFO  BSP server: Starting compilation server
+2025.05.03 15:23:18 INFO  time: Connected to build server in 11s
+2025.05.03 15:23:18 INFO  Connected to Build server: scala-cli v1.5.4
+2025.05.03 15:23:18 INFO  time: Imported build in 0.19s
+2025.05.03 15:23:21 INFO  compiling bigdataaplicado_d5c0a6989e (69 scala sources and 20 java sources)
+2025.05.03 15:23:33 INFO  time: indexed workspace in 14s
+2025.05.03 15:23:46 WARN  Invalid text document uri received from build server: file:///C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/src/main/scala/Method_Notations.scala
+2025.05.03 15:23:46 WARN  Invalid text document uri received from build server: file:///C:/Users/ESP/Desktop/BigDataAplicado/Tema4-Scala/scala/src/main/scala/Ejercicios.scala
+2025.05.03 15:23:46 INFO  time: compiled BigDataAplicado_d5c0a6989e in 25s
+2025.05.03 15:23:46 INFO  compiling bigdataaplicado_d5c0a6989e (69 scala sources and 20 java sources)
+2025.05.03 15:23:56 INFO  time: compiled BigDataAplicado_d5c0a6989e in 9.09s
+2025.05.03 15:24:31 INFO  Shutting down server
+2025.05.03 15:24:31 INFO  shutting down Metals
+2025.05.03 15:24:31 INFO  Shut down connection with build server.
+2025.05.03 15:24:31 INFO  Exiting server
