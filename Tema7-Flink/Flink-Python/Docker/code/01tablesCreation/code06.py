@@ -40,6 +40,7 @@ table_env.create_temporary_table(
         .option('fields.temperature.start', '15')
         .option('fields.temperature.end', '35')
         .option('rows-per-second','5')
+        .option('number-of-rows', '20')
         .build())
 
 
@@ -81,16 +82,17 @@ sensores_criticos.execute().print()
 JOIN
  FROM_PATH'''
 
-table_env.create_temporary_view('sensores_simulados', table_env)
+table_env.create_temporary_view('sensores_simulados', table)
 
 table_env.create_temporary_view('sensores_criticos', sensores_criticos)
 
 # Realizando la unión mediante SQL
 table6 = table_env.execute_sql("""
-    SELECT s.temperatura
+    SELECT s.temperature
     FROM sensores_simulados s
     JOIN sensores_criticos c
-    ON s.id = c.sensor_id
+    ON s.id = c.id
+
 """)
 
 table6.print()
