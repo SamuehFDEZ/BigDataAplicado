@@ -21,11 +21,11 @@ orders.execute().print()
 # 2. Filter the rows where the country is France
 # 3. Group the results by customer name
 # 4. Select the name and the sum of the revenue, renaming the sum column to 'rev_sum'
-revenue = orders \
-    .select(col("name"), col("country"), col("revenue")) \
-    .where(col("country") == 'FRANCE') \
-    .group_by(col("name")) \
-    .select(col("name"), col("revenue").sum.alias('rev_sum'))
+revenue = ((((orders
+           .select(col("name"), col("country"), col("revenue")))
+           .where(col("country") == 'FRANCE'))
+           .group_by(col("name")))
+           .select(col("name"), col("revenue").sum.alias('rev_sum')))
 
 # Execute the query and print the results
 revenue.execute().print()

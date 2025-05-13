@@ -41,14 +41,15 @@ Ejercicio 3. Crea una UDF por Pandas, definida con lambda:
 - devuelve un DataFreame con nombre e ingreso ajustado
 '''
 
-map_function = udf(
-    lambda x: pd.concat([x.name, x.country, x.revenue * 2], axis=1),
-    result_type=DataTypes.ROW(
-        [DataTypes.FIELD("name", DataTypes.STRING()),
-         DataTypes.FIELD("revenue", DataTypes.BIGINT())]
-    ),
-    func_type="pandas"  # Use Pandas for vectorized operations, efficient for batch processing.
-)
+@udf(result_type=DataTypes.ROW([
+    DataTypes.FIELD("name", DataTypes.STRING()),
+    DataTypes.FIELD("revenue", DataTypes.BIGINT())
+]), func_type="pandas")
+def correct_revenue(df: pd.DataFrame) -> pd.DataFrame:
+    return pd.DataFrame({
+        'name': df['name'],
+        'revenue': (df['revenue'] * 2).astype('int64')
+    })
 
 ''' 
 Ejercicio 4. Aplica esta función a la tabla
@@ -56,6 +57,5 @@ Ejercicio 4. Aplica esta función a la tabla
  Ejercicio 5. Imprime el resultado final con los ingresos corregidos.
 '''
 
-
-orders.map(map_function).execute().print()
-
+corrected_orders = orders.map(correct_revenue)
+corrected_orders.execute().print()
