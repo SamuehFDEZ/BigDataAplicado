@@ -22,7 +22,7 @@ def check_kafka_connection(bootstrap_servers, topic):
         return False
 
 # Specify Kafka connection details
-bootstrap_servers = 'docker-kafka-1:29092'
+bootstrap_servers = 'kafka:29092'
 topic = 'tweets-sim'
 
 # Check the Kafka connection and topic existence before proceeding

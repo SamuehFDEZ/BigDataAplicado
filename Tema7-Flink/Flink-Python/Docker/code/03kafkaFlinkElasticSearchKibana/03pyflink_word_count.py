@@ -43,7 +43,7 @@ def word_count_stream_processing():
     ) WITH (
         'connector' = 'kafka',
         'topic' = 'tweets-sim',
-        'properties.bootstrap.servers' = 'docker-kafka-1:29092',
+        'properties.bootstrap.servers' = 'kafka:29092',
         'properties.group.id' = 'test_3',
         'scan.startup.mode' = 'latest-offset',
         'format' = 'json'
